@@ -126,7 +126,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 Here is an example of the trend analysis visualization:
 
-![Stock Trends Visualization](https://github.com/Poulami-Nandi/GoogleTrendWithOHLCV/images/sample/GoogleTrendAndStockPriceTesla.png)
+![Stock Trends Visualization](https://github.com/Poulami-Nandi/GoogleTrendWithOHLCV/blob/main/images/sample/GoogleTrendAndStockPriceTesla.png)
 
 Feel free to modify and extend this project to track more stocks or include additional analyses. Happy coding!
 
