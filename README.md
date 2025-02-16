@@ -92,7 +92,8 @@ if __name__ == "__main__":
     stock_trend_analysis.plot_correlation()
 ```
 
-Example Output
+## Example Output
+
 Correlation Matrix: A printed matrix showing the correlation between Google Trends data and stock OHLCV data.
 Plot: A graph displaying the Google Trends data, stock price (close), and normalized volume.
 Additional Notes
@@ -120,6 +121,12 @@ Visualization:
 Call plot_correlation() to generate visualizations comparing Google Trends data and stock data.
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Example Visualization
+
+Here is an example of the trend analysis visualization:
+
+![Stock Trends Visualization](https://github.com/Poulami-Nandi/GoogleTrendWithOHLCV/images/sample/GoogleTrendAndStockPriceTesla.png)
 
 Feel free to modify and extend this project to track more stocks or include additional analyses. Happy coding!
 
