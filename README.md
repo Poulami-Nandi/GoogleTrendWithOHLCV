@@ -29,6 +29,7 @@ You can install the required libraries using:
 
 ```bash
 pip install pandas numpy yfinance pytrends matplotlib
+```
 Class: StockTrendAnalysis
 The core of this project is the StockTrendAnalysis class that performs the following tasks:
 
@@ -61,9 +62,8 @@ plot_correlation(self):
 
 Visualizes the relationship between Google Trends and stock data.
 Example Usage
-python
-Copy
 # Example Usage
+```bash
 if __name__ == "__main__":
     # Create an instance of StockTrendAnalysis class for "Tesla stock"
     stock_trend_analysis = StockTrendAnalysis(search_term='Tesla stock', timeframe='today 3-m')
@@ -90,6 +90,8 @@ if __name__ == "__main__":
 
     # Plot the trends and stock data
     stock_trend_analysis.plot_correlation()
+```
+
 Example Output
 Correlation Matrix: A printed matrix showing the correlation between Google Trends data and stock OHLCV data.
 Plot: A graph displaying the Google Trends data, stock price (close), and normalized volume.
@@ -120,9 +122,6 @@ License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Feel free to modify and extend this project to track more stocks or include additional analyses. Happy coding!
-
-vbnet
-Copy
 
 ### **Explanation of the README**:
 
